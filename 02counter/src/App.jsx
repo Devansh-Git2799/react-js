@@ -30,7 +30,7 @@ function App() {
       </button>
       <br />
       <button onClick={removeValue} disabled={counter <= 0}>
-        Remove Value{" "}
+        Remove Value {counter}
       </button>
     </>
   );
